@@ -1,0 +1,36 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+Case mismatch error between cite keys taylor and Taylor
+---line 38 of file main.aux
+ : \citation{taylor
+ :                 }
+I'm skipping whatever remains of this command
+I couldn't open database file ./bibtex/turbulence.bib
+---line 50 of file main.aux
+ : \bibdata{mainNotes,./bibtex/turbulence
+ :                                       }
+I'm skipping whatever remains of this command
+The style file: apsrev4-1.bst
+Database file #1: mainNotes.bib
+Warning--I didn't find a database entry for "couette_taylor"
+Warning--I didn't find a database entry for "couette"
+Warning--I didn't find a database entry for "Taylor"
+Warning--I didn't find a database entry for "borrero_2018"
+Warning--I didn't find a database entry for "fluids_general"
+Warning--I didn't find a database entry for "strogatz"
+Warning--I didn't find a database entry for "gollub_swinney_1978"
+Warning--I didn't find a database entry for "nyquist"
+Warning--I didn't find a database entry for "brandstater_et_al_1987"
+Warning--I didn't find a database entry for "gollub_swinney"
+control{REVTEX41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
+control{apsrev41Control}, control.key{N/A}, control.author{00}, control.editor{1}, control.title{0}, control.pages{1}, control.year{0}, control.eprint{N/A}, 
+Warning--jnrlst (dependency: not reversed) set 1
+Warning--dotless (dependency: not initials) set 1
+merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (0) dotless jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (0) allowed
+Control: page (1) range
+Control: year (0) verbatim
+Control: production of eprint (0) enabled
+(There were 2 error messages)
