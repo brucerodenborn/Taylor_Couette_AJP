@@ -64,16 +64,32 @@ notitlepage
 \newcommand{\TC}{Taylor-Couette}
 
 %% Symbols
-\newcommand{\ReN}{\ensuremath{Re}} % Reynolds number
+% -----------------------------------------------------
+% Physical variables
+
+\newcommand{\vel}{\ensuremath{u}} % velocity
+\newcommand{\len}{\ensuremath{\ell}} % length
+\newcommand{\vvec}{\ensuremath{\mathbf{u}}} % velocity vector
+\newcommand{\zeit}{\ensuremath{t}} % time
+
+% Scales
 \newcommand{\vscale}{\ensuremath{U}} % Velocity scale
 \newcommand{\lscale}{\ensuremath{L}} % Length scale
+\newcommand{\tscale}{\ensuremath{T}} % Time scale
+\newcommand{\pscale}{\ensuremath{P}} % Pressure scale
+
+% Fluid properties
 \newcommand{\visc}{\ensuremath{\nu}} % kinematic viscosity
+\newcommand{\dens}{\ensuremath{\rho}} % density
+\newcommand{\dvisc}{\ensuremath{\mu}} % dynamic viscosity
+
+% System geometric/control parameters
 \newcommand{\gap}{\ensuremath{d}} % gap
 \newcommand{\height}{\ensuremath{H}} % cell height
 \newcommand{\rad}[1]{\ensuremath{r_{#1}}} % radius with subscript
-\newcommand{\rratio}{\ensuremath{\mu}} % radius ratio
+\newcommand{\rratio}{\ensuremath{\eta}} % radius ratio
 \newcommand{\aratio}{\ensuremath{\Gamma}} % axial aspect ratio
-\newcommand{\vel}{\ensuremath{u}}
+\newcommand{\ReN}{\ensuremath{Re}} % Reynolds number
 
 \begin{document}
 
@@ -125,10 +141,31 @@ We present a low-cost fluid dynamics experiment, that is useful in a variety of 
 Fluid flow between rotating cylinders is typically called  \TC\ flow after Maurice Couette who was a professor of physics at the University of Angers in France and English physicist and mathematician G.I. Taylor who studied the systems higher order instabilities in the 1920's.\cite{couette_taylor}  The system continues to be used as a viscometer, but it is also used for studies of the stability of rotating shear flows and and as a pedagogical tool in the classroom. \DB{Mention that TCF was considered by Newton.}
 
 In 1888 Couette determined the viscosity of liquids from measurements of the torque for laminar flow between concentric rotating cylinders.\cite{couette} Laminar fluid flow refers to a fluid that may have a varying velocity within it, but the fluid layers flow parallel with each other, i.e., it is not turbulent. The equations of motion for a fluid are referred to as the Navier-Stokes equations, which represent the conservation of momentum and energy in a continuum liquid. There are few exact solutions of the Navier-Stokes equations because it in nonlinear and dissipative. However, the laminar flow state in the TC flow is one such solution and is a unique solution at low cylinder rotation rates $f_{cyl}$: each parcel of fluid simply rotates in circles about the cylinder axis. 
- 
- Thus, the velocity field in cylindrical polar coordinates has only one nonzero component, the azimuthal velocity, $v_\phi = Ar + B/r$, where $A$ and $B$ are constants whose values are determined by the no-slip boundary conditions at the inner and outer cylinder walls. At the inner cylinder $v_\phi(\rad{i})= 2\pi f_{cyl}a$  and at the outer cylinder $v_{\phi}(\rad{o}) = 0$, where $\rad{i}$ and $\rad{o}$ are respectively the radii of the inner and outer cylinders.
 
-The laminar base flow $v_\phi = Ar + B/r$ is a solution to the Navier-Stokes equation for $\it any$ value of $f_{cyl}$. However, in a landmark paper in 1923 G.I. Taylor's analysis showed that the laminar state becomes unstable at a well-defined critical cylinder rotation rate $(f_{cyl})_c$ when time-independent toroidal-shaped vortices emerge.\cite{Taylor} These ``Taylor vortices" encircle the inner cylinder and are stacked along the cylinder axis, Fig. \ref{XXX}.  Taylor also conducted experiments, and he found remarkable agreement between his observations and his predictions for the emergence of a flow with vortices encircling the inner cylinder.  Taylor's research capped a half century of effort by leading scientists including Kelvin, Rayleigh, Sommerfeld, and Orr, who had all attempted to calculate the onset of instability of a laminar flow.  Taylor's result also provided strong evidence for the validity of the Navier-Stokes equations for a fluid, and for the assumption that fluid at a wall has the same tangential velocity as the wall (the no-slip boundary condition).  
+\DB{Discuss Navier-Stokes. Work in progress.}
+
+\BE
+\dens\left(\frac{\partial \vvec}{\partial \zeit} + \left(\vvec \cdot \nabla \right) \vvec \right) = -\nabla P + \dvisc \nabla^2 \vvec,
+\label{eq:DNS}
+\EE
+
+where \dens\ is the density of the fluid and \dvisc\ is its dynamic viscosity.
+
+If we let $\vel' = \vel/\vscale$ and $\len' = \len/\lscale$. Having defined our length and velocity scales, we can define a characteristic time scale $\tscale = \lscale/\vscale$ and a dimensionless time $t' = t/T$.
+
+\BE
+\ReN\left(\frac{\partial \vvec'}{\partial \zeit'} + \left(\vvec' \cdot \nabla' \right) \vvec' \right) = -\nabla' P' + \nabla'^2 \vvec'
+\label{eq:NDNSHighRe}
+\EE
+
+\BE
+\frac{\partial \vvec'}{\partial \zeit'} + \left(\vvec' \cdot \nabla' \right) \vvec' = -\nabla' P' + \frac{1}{\ReN} \nabla'^2 \vvec'
+\label{eq:NDNSLowRe}
+\EE
+
+ Thus, the velocity field in cylindrical polar coordinates has only one nonzero component, the azimuthal velocity, $\vel_\phi = Ar + B/r$, where $A$ and $B$ are constants whose values are determined by the no-slip boundary conditions at the inner and outer cylinder walls. At the inner cylinder $\vel_\phi(\rad{i})= 2\pi f_{cyl}\rad{i}$  and at the outer cylinder $\vel_{\phi}(\rad{o}) = 0$, where $\rad{i}$ and $\rad{o}$ are respectively the radii of the inner and outer cylinders.
+
+The laminar base flow $\vel_\phi = Ar + B/r$ is a solution to the Navier-Stokes equation for $\it any$ value of $f_{cyl}$. However, in a landmark paper in 1923 G.I. Taylor's analysis showed that the laminar state becomes unstable at a well-defined critical cylinder rotation rate $(f_{cyl})_c$ when time-independent toroidal-shaped vortices emerge.\cite{Taylor} These ``Taylor vortices" encircle the inner cylinder and are stacked along the cylinder axis, Fig. \ref{XXX}.  Taylor also conducted experiments, and he found remarkable agreement between his observations and his predictions for the emergence of a flow with vortices encircling the inner cylinder.  Taylor's research capped a half century of effort by leading scientists including Kelvin, Rayleigh, Sommerfeld, and Orr, who had all attempted to calculate the onset of instability of a laminar flow.  Taylor's result also provided strong evidence for the validity of the Navier-Stokes equations for a fluid, and for the assumption that fluid at a wall has the same tangential velocity as the wall (the no-slip boundary condition).  
 
 The Taylor instability has become the prototype for studies of the onset of instability in diverse physical, chemical, and biological systems that are forced away from the equilibrium state by the imposition of a gradient.  The rotating cylinder system has also become the prototype for general studies of {\bf instability, pattern formation, chaos, and turbulence} and remains an area of active research, c.f. Ibanez, Swinney and Rodenborn 2016. (open access article: \url{https://doi.org/10.1103/PhysRevFluids.1.053601}).  
 
@@ -147,11 +184,11 @@ The paper is organized as follows: Section II describes the system parameters an
 
 \section{Apparatus}
 
-Figure \ref{fig:schematic} is a schematic representation of a TC cell. The following is a list of the important parameters for a TC cell along with the values for the system described in detail in the mechanical drawings in the appendix. Note that these values can be varied but the details of the fluid dynamics will be different than we describe \DB{We should probably standardize our setups for any experiments that we have to do for this. Do you want me to mail you one of mine (I have a bunch).}:
+Figure \ref{fig:schematic} is a schematic representation of a \TC cell. The following is a list of the important parameters for a \TC cell along with the values for the system described in detail in the mechanical drawings in the appendix. Note that these values can be varied but the details of the fluid dynamics will be different than we describe \DB{We should probably standardize our setups for any experiments that we have to do for this. Do you want me to mail you one of mine (I have a bunch).}:
 \begin{itemize}
 \item Inner cylinder radius, $\rad{i} = 3.07$ cm
 \item Outer cylinder radius, $\rad{o} = 3.49$ cm
-\item Radius ratio, $a/b = 0.880 $
+\item Radius ratio, $\rratio = \rad{i}/\rad{o} = 0.880 $
 \item Gap between cylinders, $\gap = \rad{o}-\rad{i} = 0.419$ cm
 \item Inner cylinder rotation frequency, $f_{cyl}$
 \item Outer cylinder rotation frequency = 0 Hz (in the general problem the outer cylinder as well as the inner cylinder rotates)
@@ -177,7 +214,7 @@ In this section we describe the activities used at the Hands-On School in Comple
 
 \subsection{The base flow state}
 The learning goals here are: ...
-Students are given a brief introduction to the TC cell and asked to describe what they believe are its relevant parameters. This generally leads to a lively discussion of how to characterize the system and the fluid flow. We also introduce the Reynolds number, which is a dimensionless parameter common in fluid dynamics defined as:
+Students are given a brief introduction to the \TC cell and asked to describe what they believe are its relevant parameters. This generally leads to a lively discussion of how to characterize the system and the fluid flow. We also introduce the Reynolds number, which is a dimensionless parameter common in fluid dynamics defined as:
 
 \BE
 \ReN\equiv \frac{\vscale\lscale}{\visc},

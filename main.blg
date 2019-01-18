@@ -1,11 +1,11 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 Case mismatch error between cite keys taylor and Taylor
----line 38 of file main.aux
+---line 39 of file main.aux
  : \citation{taylor
  :                 }
 I'm skipping whatever remains of this command
 I couldn't open database file ./bibtex/turbulence.bib
----line 50 of file main.aux
+---line 52 of file main.aux
  : \bibdata{mainNotes,./bibtex/turbulence
  :                                       }
 I'm skipping whatever remains of this command

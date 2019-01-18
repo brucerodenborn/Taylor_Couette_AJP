@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.10)  18 JAN 2019 12:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.10)  18 JAN 2019 13:17
 entering extended mode
 **./main.tex
 (main.tex
@@ -322,28 +322,28 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip53
 )
 Class revtex4-1 Info: Unrecognized array package. Please update this document class! (Proceeding with fingers crossed.) 
-on input line 78.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 78.
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 78.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 78.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 78.
+on input line 94.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 94.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 94.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 94.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 94.
  (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
 
 (C:\Users\micro\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -370,7 +370,7 @@ Package grfext Info: Graphics extension search list:
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \AtBeginShipoutBox=\box44
-Package hyperref Info: Link coloring OFF on input line 78.
+Package hyperref Info: Link coloring OFF on input line 94.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -380,55 +380,55 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count124
 )
-LaTeX Info: Redefining \ref on input line 78.
-LaTeX Info: Redefining \pageref on input line 78.
-LaTeX Info: Redefining \nameref on input line 78.
+LaTeX Info: Redefining \ref on input line 94.
+LaTeX Info: Redefining \pageref on input line 94.
+LaTeX Info: Redefining \nameref on input line 94.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 78.
+Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 94.
 \openout3 = `mainNotes.bib'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 115.
+LaTeX Font Info:    Try loading font information for U+msa on input line 131.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 115.
+LaTeX Font Info:    Try loading font information for U+msb on input line 131.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-Package natbib Warning: Citation `couette_taylor' on page 1 undefined on input line 125.
+Package natbib Warning: Citation `couette_taylor' on page 1 undefined on input line 141.
 
 
-Package natbib Warning: Citation `couette' on page 1 undefined on input line 127.
+Package natbib Warning: Citation `couette' on page 1 undefined on input line 143.
 
 
-Package natbib Warning: Citation `Taylor' on page 1 undefined on input line 131.
+Package natbib Warning: Citation `Taylor' on page 1 undefined on input line 168.
 
 
-LaTeX Warning: Reference `XXX' on page 1 undefined on input line 131.
+LaTeX Warning: Reference `XXX' on page 1 undefined on input line 168.
 
 [1{C:/Users/micro/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
 pdfTeX warning: pdflatex.exe (file ./Figures/1_Apparatus.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<./Figures/1_Apparatus.pdf, id=103, 41.93497pt x 101.0184pt>
+<./Figures/1_Apparatus.pdf, id=107, 41.93497pt x 101.0184pt>
 File: ./Figures/1_Apparatus.pdf Graphic file (type pdf)
 <use ./Figures/1_Apparatus.pdf>
-Package pdftex.def Info: ./Figures/1_Apparatus.pdf  used on input line 144.
+Package pdftex.def Info: ./Figures/1_Apparatus.pdf  used on input line 181.
 (pdftex.def)             Requested size: 36.8985pt x 88.8872pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 152.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 189.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 152.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 189.
 
 
-Package natbib Warning: Citation `borrero_2018' on page 2 undefined on input line 167.
+Package natbib Warning: Citation `borrero_2018' on page 2 undefined on input line 204.
 
 Package epstopdf Info: Source file: <Figures/2_Flow_Images.eps>
 (epstopdf)                    date: 2019-01-18 08:58:47
@@ -438,53 +438,62 @@ Package epstopdf Info: Source file: <Figures/2_Flow_Images.eps>
 (epstopdf)                    size: 56777 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/2_Flow_Images-eps-converted-to.pdf Figures/2_Flow_Images.eps
 >
-(epstopdf)             \includegraphics on input line 174.
+(epstopdf)             \includegraphics on input line 211.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/2_Flow_Images-eps-converted-to.pdf, id=105, 117.43875pt x 62.2325pt>
+<Figures/2_Flow_Images-eps-converted-to.pdf, id=109, 117.43875pt x 62.2325pt>
 File: Figures/2_Flow_Images-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/2_Flow_Images-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/2_Flow_Images-eps-converted-to.pdf  used on input line 174.
+Package pdftex.def Info: Figures/2_Flow_Images-eps-converted-to.pdf  used on input line 211.
 (pdftex.def)             Requested size: 184.5pt x 97.7698pt.
-[2 <./Figures/1_Apparatus.pdf> <./Figures/2_Flow_Images-eps-converted-to.pdf>]
+[2 <./Figures/1_Apparatus.pdf>]
 
-Package natbib Warning: Citation `fluids_general' on page 3 undefined on input line 185.
-
-
-Package natbib Warning: Citation `fluids_general' on page 3 undefined on input line 187.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 221.
 
 
-Package natbib Warning: Citation `strogatz' on page 3 undefined on input line 210.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 221.
 
 
-Package natbib Warning: Citation `taylor' on page 3 undefined on input line 211.
-
-[3]
-
-Package natbib Warning: Citation `gollub_swinney_1978' on page 4 undefined on input line 220.
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 
-Package natbib Warning: Citation `nyquist' on page 4 undefined on input line 234.
+Package natbib Warning: Citation `fluids_general' on page 3 undefined on input line 222.
+
+
+Package natbib Warning: Citation `fluids_general' on page 3 undefined on input line 224.
+
+
+Package natbib Warning: Citation `strogatz' on page 3 undefined on input line 247.
+
+
+Package natbib Warning: Citation `taylor' on page 3 undefined on input line 248.
+
+[3 <./Figures/2_Flow_Images-eps-converted-to.pdf>]
+
+Package natbib Warning: Citation `gollub_swinney_1978' on page 4 undefined on input line 257.
+
+
+Package natbib Warning: Citation `nyquist' on page 4 undefined on input line 271.
 
 [4]
 
-LaTeX Warning: Reference `XXX' on page 5 undefined on input line 271.
+LaTeX Warning: Reference `XXX' on page 5 undefined on input line 308.
 
 [5]
 
-Package natbib Warning: Citation `brandstater_et_al_1987' on page 6 undefined on input line 283.
+Package natbib Warning: Citation `brandstater_et_al_1987' on page 6 undefined on input line 320.
 
 
-Package natbib Warning: Citation `gollub_swinney' on page 6 undefined on input line 290.
+Package natbib Warning: Citation `gollub_swinney' on page 6 undefined on input line 327.
 
 (main.bbl)
 
 Package natbib Warning: There were undefined citations.
 
 [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 310.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 347.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 310.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 310.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 347.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 347.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 98904D363372197DDCD43C3B28BD0181;1451.
 
@@ -493,26 +502,27 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 8428 strings out of 493305
- 117331 string characters out of 3138874
- 234961 words of memory out of 3000000
- 11837 multiletter control sequences out of 15000+200000
- 11878 words of font info for 45 fonts, out of 3000000 for 9000
+ 8445 strings out of 493305
+ 117475 string characters out of 3138874
+ 241843 words of memory out of 3000000
+ 11849 multiletter control sequences out of 15000+200000
+ 12499 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,6n,35p,1358b,411s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (6 pages, 984532 bytes).
+.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (6 pages, 995246 bytes).
 PDF statistics:
- 440 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
+ 448 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
  163 words of extra memory for PDF output out of 10000 (max. 10000000)
 
